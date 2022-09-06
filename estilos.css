@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color:hsl(212, 45%, 89%)
+}
+
+main {
+    background-color: white;
+    min-width: 290px;
+    max-width: 900px;
+    width: 310px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.conteudo {
+    position: absolute;
+    left: 20px;
+    top:20px;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.imagem {
+    border-radius: 5%;
+}
+
+.conteudo-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    bottom: 22px;
+}
+
+.conteudo-escrito1{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-size:22px;
+    font-weight: 700;
+
+    
+}
+
+.conteudo-escrito2 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    font-size:15.7px;
+    font-weight: 400;
+}
+
+@media(max-width:900px) {
+    main {
+    background-color: white;
+    width: 280px;
+    height: 460px;
+    border-radius: 5%;
+    }
+    
+    .conteudo {
+        position: absolute;
+        left: 20px;
+        top:20px;
+        right: 20px;
+        bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        display: flex;
+        text-align: center;
+    }
+
+    .conteudo-escrito1{
+        font-size:20px;
+        font-weight: 700;  
+    }
+    
+    .conteudo-escrito2 {
+        font-family: 'Outfit', sans-serif;
+        color: hsl(220, 15%, 55%);
+        font-size:14px;
+        font-weight: 400;
+    }
+    
+}
+
+
+
+
+
